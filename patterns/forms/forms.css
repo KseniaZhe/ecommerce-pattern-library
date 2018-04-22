@@ -171,3 +171,24 @@ input:not([type="radio"]) {
   height: 35px;
   padding-left: .75rem;
 }
+
+.width-payment-img {
+  width: 54px;
+  height: auto;
+}
+
+.payment-radio [type="radio"] + label::before {
+  vertical-align: bottom;
+  content: " ";
+  display: inline-block;
+  height: 1.8em;
+  margin-right: .3em;
+  position: relative;
+  top: -.1em;
+  width: 1.8em;
+  background-color: var(--color-primary-light);
+  background-size: cover;
+  border: 1px solid var(--color-primary);
+  border-radius: 50%;
+  line-height: inherit;
+}
