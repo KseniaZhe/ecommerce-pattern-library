@@ -15,8 +15,12 @@ password: |
     Passwords are used when the user needs to insert a password.
 radio-buttons: |
     Radio buttons are used when the user needs to make an exclusive choice between options.
+radio-buttons-img: |
+    Radio buttons image are used when the user needs to make an exclusive choice between options which are represented by images.
 select: |
     Selectors are used when the user needs to select from a list of options.
+select-province: |
+    Select province is used when the user needs to select their province for delivery address.
 text-areas: |
     Text areas are used when the user needs to type more than one line of text, for example, special requirements or notes.
 text-inputs: |
@@ -28,7 +32,7 @@ errors: |
 search: |
     Search field is used to help the user navigate through content.
 coupon: |
-    Coupon input is used for the cart summary. It should be placed after the item summary
+    Coupon input is used for the cart summary. It should be placed after the item summary.
 ---
 
 The form elements help collect the information needed for the purchase, login, subscription to the Newsletter etc.

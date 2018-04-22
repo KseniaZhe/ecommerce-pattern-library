@@ -6,7 +6,7 @@ buttons-on-dark:
 button: |
   - The regular buttons are for cards, forms, banners.
 button-strong: |
-    - The strong buttons are for important actions as checkout and add-to-cart. The are bright and motivational.
+    - The strong buttons are for important actions as checkout and add-to-cart. They are bright and motivational.
 button-ghost: |
   - The ghost buttons are for write a review buttons and for buttons with lesser importance.
 ---
