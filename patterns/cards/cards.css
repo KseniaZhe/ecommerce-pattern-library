@@ -19,13 +19,13 @@
 
 .hover-box {
   color: var(--color-base-dark);
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .hover-box:hover h4,
 .hover-box:focus h4 {
   color: var(--color-secondary);
-  transition: all .1s linear;
+  transition: all .15s linear;
 }
 
 .hover-box h3 {
@@ -35,7 +35,7 @@
 .hover-box:hover h3,
 .hover-box:focus h3 {
   transform: scale(1.65);
-  transition: all .35s linear .125s;
+  transition: all .35s linear .15s;
 }
 
 .pin-bottom-1-center {
@@ -48,14 +48,15 @@
 
 .discount {
   color: #acac83;
-  font-weight: 400;
+  font-weight: normal;
   position: relative;
 }
+
 .discount::after {
-  border-bottom: 0.125em solid #acac83;
+  border-bottom: .125em solid #acac83;
   content: "";
   left: 0;
-  margin-top: calc(0.125em / 2 * -1);
+  margin-top: calc(.125em / 2 * -1);
   position: absolute;
   right: 0;
   top: 50%;
@@ -94,21 +95,21 @@
 }
 
 .hide-s-l {
- display: block;
+  display: block;
 }
 
 .show-s-l {
- display: none;
+  display: none;
 }
 
 @media only screen and (min-width: 28em) {
 
   .hide-s-l {
-   display: none;
+    display: none;
   }
 
   .show-s-l {
-   display: block;
+    display: block;
   }
 
 }

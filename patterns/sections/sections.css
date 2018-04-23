@@ -2,14 +2,13 @@
   background-color: var(--color-base-dark);
   color: var(--color-primary);
   font-family: var(--font-secondary);
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .max-input-length {
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .section-separator {
