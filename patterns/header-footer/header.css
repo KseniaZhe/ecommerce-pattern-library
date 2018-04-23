@@ -183,11 +183,11 @@
   display: none;
 }
 
-.nav-check:checked ~ .grid .nav-label .nav-open {
+.nav-check:checked ~ .grid .nav-open {
   display: none;
 }
 
-.nav-check:checked ~ .grid .nav-label .nav-close {
+.nav-check:checked ~ .grid .nav-close {
   display: inline-block;
 }
 
